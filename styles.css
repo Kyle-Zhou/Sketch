@@ -15,7 +15,7 @@ h1 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-button {
+#clearButton {
     margin: 0 auto;
     display: block;
     background-color:white;
