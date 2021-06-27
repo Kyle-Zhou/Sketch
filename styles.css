@@ -35,15 +35,15 @@ body {
 
 
 
-.slidecontainer {
+#slidecontainer {
     width: 300px; /* Width of the outside container */
     margin: 0 auto;
     position: relative;
     margin-top: 50px;
-  }
+}
   
   /* The slider itself */
-  .slider {
+.slider {
 
     -webkit-appearance: none;  /* Override default CSS styles */
     appearance: none;
@@ -54,22 +54,22 @@ body {
     opacity: 0.65; /* Set transparency (for mouse-over effects on hover) */
     -webkit-transition: .2s; /* 0.2 seconds transition on hover */
     transition: opacity .2s;
-  }
+}
   
   /* Mouse-over effects */
-  .slider:hover {
+.slider:hover {
     opacity: 1; /* Fully shown on mouse-over */
-  }
+}
   
   /* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
-  .slider::-webkit-slider-thumb {
+.slider::-webkit-slider-thumb {
     -webkit-appearance: none; /* Override default look */
     appearance: none;
     width: 20px; /* Set a specific slider handle width */
     height: 20px; /* Slider handle height */
     background: #04AA6D; /* Green background */
     cursor: pointer; /* Cursor on hover */
-  }
+}
   
 
   
